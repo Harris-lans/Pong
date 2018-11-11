@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{ccdbdf11-c381-4f92-bf67-ba05fce45ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Public">
+      <UniqueIdentifier>{75c2830e-ea9b-4f39-a9f0-30582628d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{3f73a39c-59f6-4cb6-a0b8-d251275c643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Source Files">
+      <UniqueIdentifier>{9e4c503e-26a9-484b-be5c-d94f35576fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Header Files">
+      <UniqueIdentifier>{6dcd4022-feb1-45d9-a4a5-3b9cee46ecd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Public\EngineInterface.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\EngineTypes.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\GameInterface.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\SDL.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Singleton.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Output.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGBounce.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGBoxShape.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGCircleShape.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGInputReader.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGMoveDown.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGMoveUp.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGPhysics.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGShape.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGTransform.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Game.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObject.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\IInputEvent.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Mathf.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjectManager.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Player.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Ball.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\COGScoredEvent.h">
+      <Filter>Source Files\Game\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Private\Main.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Game.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGBounce.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGBoxShape.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGCircleShape.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGInputReader.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGMoveDown.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGMoveUp.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGPhysics.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGShape.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGTransform.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObject.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Mathf.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjectManager.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Output.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Player.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Ball.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\COGScoredEvent.cpp">
+      <Filter>Source Files\Game\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
